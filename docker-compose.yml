@@ -25,3 +25,4 @@ services:
       test: "echo 'db.stats().ok' | mongo 127.0.0.1:27017/leanote --quiet"
     volumes:
       - "./data/mongodb:/data/db"
+1111
